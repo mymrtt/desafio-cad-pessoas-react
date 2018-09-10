@@ -1,6 +1,6 @@
 # Curso REACTJS - Desafio Cadastro de Pessoas
 
-* Resolva o desafio utilizando os conceitos de JavaScript e da biblioteca de componentes ReactJS estudados até o momento.
+* Resolva o desafio utilizando a biblioteca ReactJS.
 
 ## Como participar
 
