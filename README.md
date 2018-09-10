@@ -25,7 +25,7 @@
 ## API
 Exemplo de nome do candidato:
 ```
-let nome = 'james-da-silva'; // 
+let nomeDoCandidato = 'james-da-silva'; // 
 ```
 Exemplo de id:
 ```
@@ -34,7 +34,7 @@ let id = "-LM3JAJCzYqmB7JBpYmA;
 ### Incluir pessoa no cadastro
 Enviar requisição POST para:
 ```
-`https://learn-firebase-6ad07.firebaseio.com/desafio/${nome}/pessoas.json`
+`https://learn-firebase-6ad07.firebaseio.com/desafio/${nomeDoCandidato}/pessoas.json`
 
 ```
 Exemplo de corpo da requisição:
@@ -60,7 +60,7 @@ Exemplo de retorno:
 ### Consultar lista de pessoas cadastradas
 Enviar requisição GET para:
 ```
-`https://learn-firebase-6ad07.firebaseio.com/desafio/${nome}/pessoas.json`
+`https://learn-firebase-6ad07.firebaseio.com/desafio/${nomeDoCandidato}/pessoas.json`
 
 ```
 Exemplo de retorno:
@@ -106,7 +106,7 @@ Exemplo de retorno:
 ```
 ### Buscar registro de uma pessoa específica
 ```
-`https://learn-firebase-6ad07.firebaseio.com/desafio/${nome}/pessoas/${id}.json`
+`https://learn-firebase-6ad07.firebaseio.com/desafio/${nomeDoCandidato}/pessoas/${id}.json`
 ```
 Exemplo de retorno:
 ```
@@ -125,7 +125,7 @@ Exemplo de retorno:
 ### Atualizar cadastro de uma pessoa específica
 Enviar requisição PUT para:
 ```
-`https://learn-firebase-6ad07.firebaseio.com/desafio/${nome}/pessoas/${id}.json`
+`https://learn-firebase-6ad07.firebaseio.com/desafio/${nomeDoCandidato}/pessoas/${id}.json`
 
 ```
 Exemplo de corpo da requisição:
@@ -159,7 +159,7 @@ Exemplo de retorno:
 ### Excluir uma pessoa específica do cadastro
 Enviar requisição DELETE para:
 ```
-`https://learn-firebase-6ad07.firebaseio.com/desafio/${nome}/pessoas/${id}.json`
+`https://learn-firebase-6ad07.firebaseio.com/desafio/${nomeDoCandidato}/pessoas/${id}.json`
 
 ```
 Exemplo de retorno:
