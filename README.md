@@ -10,7 +10,7 @@
 
 * Desenvolver uma aplicação web simples que gerencia um cadastro de pessoas.
 
-## Funcionalidades o App deve ter
+## Funcionalidades que o App deve ter
 
 * Exibir a lista de pessoas cadastradas;
 * Exibir dados de uma pessoa específica;
