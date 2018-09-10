@@ -37,7 +37,7 @@ Enviar requisição POST para:
 `https://learn-firebase-6ad07.firebaseio.com/desafio/${nome}/pessoas.json`
 
 ```
-corpo da requisição:
+Exemplo de corpo da requisição:
 ```
 {
   "nome": "Julia Maria de Freitas",
@@ -51,7 +51,7 @@ corpo da requisição:
   "estado": "Bahia"
 }
 ```
-retorno:
+Exemplo de retorno:
 ```
 {
   "name": "-LM3JAJCzYqmB7JBpYmA" // id
@@ -63,7 +63,7 @@ Enviar requisição GET para:
 `https://learn-firebase-6ad07.firebaseio.com/desafio/${nome}/pessoas.json`
 
 ```
-retorno:
+Exemplo de retorno:
 ```
 {
     "-LM3JAJCzYqmB7JBpYmA": {
@@ -106,9 +106,9 @@ retorno:
 ```
 ### Buscar registro de uma pessoa específica
 ```
-`https://learn-firebase-6ad07.firebaseio.com/desafio/james-da-silva/pessoas/${id}.json`
+`https://learn-firebase-6ad07.firebaseio.com/desafio/${nome}/pessoas/${id}.json`
 ```
-retorno:
+Exemplo de retorno:
 ```
 {
   "nome": "Julia Maria de Freitas",
@@ -128,7 +128,7 @@ Enviar requisição PUT para:
 `https://learn-firebase-6ad07.firebaseio.com/desafio/${nome}/pessoas/${id}.json`
 
 ```
-corpo da requisição:
+Exemplo de corpo da requisição:
 ```
 {
   "nome": "Julia Maria de Freitas",
@@ -142,7 +142,7 @@ corpo da requisição:
   "estado": "Bahia"
 }
 ```
-retorno:
+Exemplo de retorno:
 ```
 {
   "nome": "Julia Maria de Freitas",
@@ -162,7 +162,7 @@ Enviar requisição DELETE para:
 `https://learn-firebase-6ad07.firebaseio.com/desafio/${nome}/pessoas/${id}.json`
 
 ```
-retorno:
+Exemplo de retorno:
 ```
 null
 ```
