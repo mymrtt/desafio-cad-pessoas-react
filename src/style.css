@@ -1,0 +1,64 @@
+.body {
+  width: 60%;
+  background-color: #ccc;
+  border: 2px solid;
+} 
+.header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid;
+}
+.titulo_header{
+  font-family: 'Roboto', sans-serif;
+}
+.button{
+  color:#000;
+  border: 1px solid;
+  padding: 5px 15px;
+}
+.container{
+  display: flex;
+  width: 100%;
+}
+.list{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 400px;
+  max-width: 200px;
+  list-style: none;
+  overflow-y: scroll;
+} 
+li{
+  height: 30px;
+  padding: 2px 6px;
+  line-height: 25px;
+  border-bottom: 1px solid;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+.select{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.titulo_select{
+  display: flex;
+  justify-content: center;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+.select_row{
+  display: flex;
+  justify-content: space-around;
+}
+.buttons_select{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: flex-end;
+  padding: 35px 0;
+}
